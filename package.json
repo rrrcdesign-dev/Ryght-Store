@@ -13,6 +13,8 @@
     "test": "turbo test",
     "backend:seed": "turbo seed --filter=@dtc/backend",
     "backend:dev": "turbo dev --filter=@dtc/backend",
+    "backend:build": "npm run build --workspace=apps/backend",
+    "backend:start": "npm run start --workspace=apps/backend",
     "storefront:dev": "turbo dev --filter=@dtc/storefront"
   },
   "pnpm": {
